@@ -43,8 +43,7 @@ final class ATST_Meta {
 		}
 
 		printf(
-			'<meta name="description" content="%s" />' . "
-",
+			'<meta name="description" content="%s" />' . PHP_EOL,
 			esc_attr( $description )
 		);
 	}
