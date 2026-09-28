@@ -1,0 +1,20 @@
+{
+  "name": "alirazaeng/wordpress-technical-seo-toolkit",
+  "description": "Production-focused technical SEO patterns for WordPress.",
+  "type": "project",
+  "license": "MIT",
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "squizlabs/php_codesniffer": "^3.10",
+    "wp-coding-standards/wpcs": "^3.1"
+  },
+  "scripts": {
+    "lint": "phpcs --standard=phpcs.xml.dist plugin examples"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
