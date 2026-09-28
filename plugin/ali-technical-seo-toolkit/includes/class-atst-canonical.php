@@ -46,8 +46,7 @@ final class ATST_Canonical {
 			'wp_head',
 			static function () use ( $url ) {
 				printf(
-					'<link rel="canonical" href="%s" />' . "
-",
+					'<link rel="canonical" href="%s" />' . PHP_EOL,
 					esc_url( $url )
 				);
 			},
