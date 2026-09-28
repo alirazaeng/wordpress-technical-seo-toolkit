@@ -43,7 +43,6 @@ final class ATST_Schema {
 
 		echo '<script type="application/ld+json">';
 		echo wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
-		echo '</script>' . "
-";
+		echo '</script>' . PHP_EOL;
 	}
 }
