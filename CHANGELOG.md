@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- disposable WordPress runtime integration workflow using wp-env
+- runtime tests for safe defaults, meta-description output, JSON-LD, robots directives, canonical output, and metadata ownership
+- structured bug-report and feature-request issue forms
+- runtime integration status badge
+- runtime-testing documentation
+
+### Changed
+
+- GitHub Actions checkout dependency updated to the current maintained major version
+- technical SEO validation now includes real WordPress lifecycle execution in addition to static checks
+
 All notable changes to this project will be documented here.
 
 ## [1.0.0] - 2026-09-30
