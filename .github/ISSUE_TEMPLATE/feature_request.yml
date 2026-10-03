@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a conservative, standards-based technical SEO enhancement.
+title: "[Feature]: "
+labels: []
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Search / indexing use case
+      description: What concrete WordPress SEO problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed behavior
+      description: Explain the desired output and when it should run.
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Compatibility / metadata ownership
+      description: How should this avoid conflicting with WordPress core or established SEO plugins?
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: How would you verify the resulting robots, canonical, metadata, schema, redirects, or sitemap behavior?
