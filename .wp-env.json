@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/wp-env.json",
+  "testsEnvironment": false,
+  "core": null,
+  "phpVersion": "8.2",
+  "plugins": [
+    "./plugin/ali-technical-seo-toolkit"
+  ],
+  "mappings": {
+    "wp-content/mu-plugins/atst-integration-tests.php": "./tests/integration-smoke.php"
+  },
+  "port": 8891
+}

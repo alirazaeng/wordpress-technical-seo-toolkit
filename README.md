@@ -206,13 +206,23 @@ GitHub Actions validates:
 2. dependency installation
 3. WordPress Coding Standards
 4. PHP syntax across plugin and examples
+5. a disposable WordPress runtime integration test for SEO output
 
-Run locally:
+Run static checks locally:
 
 ```bash
 composer install
 composer lint
 find plugin examples -name "*.php" -print0 | xargs -0 -n1 php -l
+```
+
+Run the disposable WordPress integration test:
+
+```bash
+npm install --global @wordpress/env@11.16.0
+wp-env start --update
+wp-env run cli wp atst-test
+wp-env destroy
 ```
 
 ## Testing
