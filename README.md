@@ -2,7 +2,7 @@
 
 Production-focused technical SEO patterns for WordPress covering indexing controls, canonical URLs, metadata, structured data, redirects, taxonomy strategy, image SEO, and XML sitemap consistency.
 
-[![Technical SEO Code Quality](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/quality.yml/badge.svg)](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/quality.yml) [![Release](https://img.shields.io/github/v/release/alirazaeng/wordpress-technical-seo-toolkit?label=release)](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/releases/latest) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Technical SEO Code Quality](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/quality.yml/badge.svg)](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/quality.yml) [![Runtime Integration](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/integration.yml/badge.svg)](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/actions/workflows/integration.yml) [![Release](https://img.shields.io/github/v/release/alirazaeng/wordpress-technical-seo-toolkit?label=release)](https://github.com/alirazaeng/wordpress-technical-seo-toolkit/releases/latest) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This repository is designed as a maintainable engineering reference rather than a collection of aggressive SEO snippets.
 
