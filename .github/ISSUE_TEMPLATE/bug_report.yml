@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a reproducible technical SEO output or compatibility problem.
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please share only reproducible technical details. Do not post Search Console credentials, private client exports, customer data, or production secrets.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Robots directives
+        - Canonical URLs
+        - Metadata
+        - Structured data
+        - Redirects
+        - Taxonomy strategy
+        - Image SEO
+        - XML sitemaps
+        - SEO-plugin compatibility
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: wordpress
+    attributes:
+      label: WordPress version
+      placeholder: "e.g. 6.x"
+    validations:
+      required: true
+  - type: input
+    id: php
+    attributes:
+      label: PHP version
+      placeholder: "e.g. 8.2"
+  - type: input
+    id: seo_plugin
+    attributes:
+      label: SEO plugin and version
+      description: Use "none" if the problem occurs without another SEO plugin.
+      placeholder: "e.g. Rank Math x.x / Yoast x.x / none"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest configuration needed to reproduce the output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected output
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual output
+      description: Paste only the relevant public HTML/header output. Remove private data.
+    validations:
+      required: true
