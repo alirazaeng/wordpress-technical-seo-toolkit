@@ -47,6 +47,6 @@ jobs:
       - name: Run Technical SEO integration smoke tests
         run: wp-env run cli wp atst-test
 
-      - name: Destroy disposable environment
+      - name: Stop disposable environment
         if: always()
-        run: wp-env destroy --force
+        run: wp-env stop
